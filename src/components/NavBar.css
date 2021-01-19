@@ -1,0 +1,77 @@
+.NavBar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color:rgba(255,243,230, 0.7)
+
+}
+
+.Icon{
+    display: none;
+}
+
+.Links a {
+    float: right;
+    margin: auto 1em auto .7em;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    margin-block-start: 1em;
+}
+
+a:nth-child(1){
+    margin-right:7%;
+}
+
+.NavBar a:hover{
+    color: #cae4db;
+}
+
+.NavBar p{
+    float: left;
+    margin-left: 7%;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .Icon{
+        display: block;
+        float: right;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    .Icon img{
+        width: 30px;
+    }
+
+    .Icon:hover{
+        cursor: pointer;
+    }
+
+
+    .Links a{
+        display: block;
+        float: none;
+        margin-left: 5%;
+        margin-bottom: 4%;
+    }
+
+    .Links{
+        display: block;
+    }
+
+    :global(#none){
+        display: none;
+    }
+
+
+    .NavBar p{
+        display: inline-block;
+        float: none;
+    }
+}
+

@@ -1,0 +1,15 @@
+.SchoolWrapper{
+    margin: 7%;
+}
+
+.SchoolWrapper img{
+    width: 20%;
+}
+
+.School{
+    float: left;
+}
+
+.Skills{
+    text-align: center;
+}

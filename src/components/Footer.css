@@ -1,0 +1,43 @@
+.Footer{
+    text-align: center;
+    background-color: #cae4db;
+    padding: 1% 5%;
+}
+
+.Footer div{
+    margin: 2em 0;
+    font-size: 1em;
+}
+
+
+.FooterLinks a{
+    margin: auto 10px;
+    text-decoration: none;
+    color: #cdac81;
+}
+
+.FooterLinks a:hover{
+    color: black;
+}
+
+.SocialLinks a{
+    padding: 0;
+    margin: 0 10px;
+}
+
+.SocialLinks img{
+    width: 3%;
+    padding: 0;
+    border-radius: 25%;
+    background-color: #cdac81;
+}
+
+.SocialLinks img:hover{
+    background-color: #f5f4f4;
+}
+
+@media only screen and (max-width: 1000px){
+    .SocialLinks img{
+        width: 27px;
+    }
+}
