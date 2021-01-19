@@ -33,7 +33,8 @@
 }
 
 .SocialLinks img:hover{
-    background-color: #f5f4f4;
+    opacity: .5;
+    transition-duration: 10ms;
 }
 
 @media only screen and (max-width: 1000px){

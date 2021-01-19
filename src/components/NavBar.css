@@ -20,6 +20,7 @@
     text-decoration: none;
     font-weight: 700;
     margin-block-start: 1em;
+    transition-duration: 250ms;
 }
 
 a:nth-child(1){
@@ -28,6 +29,7 @@ a:nth-child(1){
 
 .NavBar a:hover{
     color: #cae4db;
+    transition-duration: 250ms;
 }
 
 .NavBar p{

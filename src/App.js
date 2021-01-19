@@ -18,7 +18,7 @@ class App extends Component {
     return (
       <Router>
         <div className={classes.App}>
-          <Route path="/" exact render={
+          <Route path="/my-website/" exact render={
             () => {
               return (<LandingPage></LandingPage>);
             }
@@ -31,6 +31,7 @@ class App extends Component {
           <Layout>
             <About></About>
             <Schooling></Schooling>
+            
             <p>Hello</p>
             <p>Hello</p>
             <p>Hello</p>
