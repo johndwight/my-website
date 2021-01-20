@@ -1,0 +1,11 @@
+.Table{
+    width: 40%;
+}
+
+.Table tr td:nth-child(1){
+    text-align: right;
+}
+
+.Table tr td:nth-child(2){
+    padding-left: 5%;
+}

@@ -1,0 +1,29 @@
+.Picture img{
+    width: 20%;
+}
+
+.Background{
+    position: relative;
+    height: 100%; 
+    text-align: center;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+
+.Centered {
+    width: 75%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.Centered h1{
+    font-size: 3rem;
+    color: white;
+    margin: 2% auto;
+}

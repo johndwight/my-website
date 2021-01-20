@@ -7,11 +7,14 @@ import {
   Route
   //NavLink
 } from "react-router-dom";
-import LandingPage from '../src/components/LandingPage';
+import LandingPage from './components/MainPage/LandingPage';
 import classes from './App.css';
-import About from './components/About';
-import Education from './components/Schooling/Education';
-
+import About from './components/MainPage/About';
+import Education from './components/MainPage/Schooling/Education';
+import Aux from './hoc/Auxiliary';
+import Picture18 from './assets/img/Picture18.jpg';
+import Picture7 from './assets/img/Picture7.jpg'
+import PictureGallery from './components/GalleryPage/PictureGallery';
 //import Content from '../src/components/Content'
 class App extends Component {
   render() {
@@ -20,19 +23,39 @@ class App extends Component {
         <div className={classes.App}>
           <Route path="/my-website/" exact render={
             () => {
-              return (<LandingPage></LandingPage>);
+              return (
+                <Aux>
+                  <LandingPage
+                    styles={{ backgroundImage: `url(${Picture7})` }}
+                    firstLine="Hello,"
+                    secondLine="my name is John."
+                    thirdLine="Welcome!">
+
+                  </LandingPage>
+                  <About></About>
+                  <hr className={classes.Divider} />
+                  <Education></Education>
+                </Aux>);
             }
           } />
-          <Route path="/about" exact strict render={
+          <Route path="/my-website/my-gallery" exact strict render={
             () => {
-              return (<h1>Welcome About</h1>);
+              return (
+                <Aux>
+                  <LandingPage
+                    styles={{ backgroundImage: `url(${Picture18})` }}
+                    firstLine="My favorite shots">
+
+
+                  </LandingPage>
+                  <PictureGallery/>
+                </Aux>
+              );
             }
           } />
           <Layout>
-            <About></About>
-            <hr className={classes.Divider}/>
-            <Education></Education>
-            
+
+
           </Layout>
 
 

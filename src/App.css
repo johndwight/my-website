@@ -14,6 +14,6 @@ html, body, #root, .App {
 .Divider{
   width: 50%;
   border-style: solid none none none;
-  border-width: 2px;
-  margin: 10% auto;
+  border-width: 1px;
+  margin: 7% auto 10% auto;
 }

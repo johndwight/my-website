@@ -1,0 +1,21 @@
+.PictureHolder{
+    display: flex;
+    height: 75%;
+    flex-direction: row;
+    width: 84%;
+    margin: 0 auto;
+}
+
+.Picture2{
+    margin: 2%;
+}
+
+@media only screen and (max-width: 750px) {
+    .PictureHolder{
+        display: flex;
+        flex-direction: column;
+        height: 170%;
+        width: 100%;
+    }
+   
+}

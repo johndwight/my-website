@@ -1,0 +1,43 @@
+.SchoolWrapper{
+    margin: 7%;
+    padding: 5% 0 2.5% 0;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.SchoolWrapper img{
+    width: 20%;
+}
+
+
+
+.School{
+    display: flex;
+}
+
+.Skills{
+    
+    margin: 0 auto;
+}
+
+.Title{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 5% auto;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.Text {
+    text-align: center;
+    margin: 1rem auto;
+    width: 65%;
+    margin-bottom: 5%;
+
+}
+.Centered{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
