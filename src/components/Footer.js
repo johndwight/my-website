@@ -9,13 +9,13 @@ const footer = () => {
             </div>
 
             <div className={classes.FooterLinks}>
-                <a href="socials.php" className={classes.FooterLinks}>Community</a>
+                <a href="https://www.youtube.com/watch?v=tAb9iR6TXAM" target="_blank" rel="noopener noreferrer" className={classes.FooterLinks}>111 seconds of happiness</a>
                 <a href="aboutUs.html" className={classes.FooterLinks}>About Us</a>
             </div>
 
             <div className={classes.SocialLinks}>
-                <a href="https://www.instagram.com/johndwight"><img src="https://www.flaticon.com/svg/static/icons/svg/87/87390.svg" alt="instagram"/></a>
-                    <a href="https://www.facebook.com/johndwightparagas"><img src="https://www.flaticon.com/svg/static/icons/svg/2111/2111392.svg" alt="facebook"/></a>
+                <a href="https://www.instagram.com/johndwight" target="_blank" rel="noopener noreferrer"><img src="https://www.flaticon.com/svg/static/icons/svg/87/87390.svg" alt="instagram"/></a>
+                    <a href="https://www.facebook.com/johndwightparagas" target="_blank" rel="noopener noreferrer"><img src="https://www.flaticon.com/svg/static/icons/svg/2111/2111392.svg" alt="facebook"/></a>
             </div>
             </div>
     );

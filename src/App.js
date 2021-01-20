@@ -10,7 +10,7 @@ import {
 import LandingPage from '../src/components/LandingPage';
 import classes from './App.css';
 import About from './components/About';
-import Schooling from './components/Schooling/Schooling';
+import Education from './components/Schooling/Education';
 
 //import Content from '../src/components/Content'
 class App extends Component {
@@ -30,21 +30,9 @@ class App extends Component {
           } />
           <Layout>
             <About></About>
-            <Schooling></Schooling>
+            <hr className={classes.Divider}/>
+            <Education></Education>
             
-            <p>Hello</p>
-            <p>Hello</p>
-            <p>Hello</p>
-            <p>Hello</p>
-            <p>Hello</p>
-            <p>Hello</p>
-            <p>Hello</p>
-            <p>Hello</p>
-            <p>Hello</p>
-            <p>Hello</p>
-            <p>Hello</p>
-            <p>Hello</p>
-            <p>Hello</p>
           </Layout>
 
 

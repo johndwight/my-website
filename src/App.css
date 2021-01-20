@@ -10,3 +10,10 @@ html, body, #root, .App {
 #root > [data-reactroot] {
   height: 100%;
 }
+
+.Divider{
+  width: 50%;
+  border-style: solid none none none;
+  border-width: 2px;
+  margin: 10% auto;
+}

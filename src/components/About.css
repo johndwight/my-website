@@ -19,6 +19,9 @@
     transition-duration: 500ms;
 }
 
+.PictureTextWrapper p{
+    margin: 0;
+}
 
 
 

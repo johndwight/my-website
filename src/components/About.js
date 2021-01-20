@@ -7,7 +7,7 @@ const about = () => {
         <div className={classes.PictureTextWrapper}>
             <img src={johnPic} alt="john" />
             <div className={classes.Text}>
-                <h2>Heyo</h2>
+                <h2>About Me</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Curabitur convallis quam turpis, commodo porttitor est dignissim ac.
                 In justo purus, consequat non enim at, interdum mattis lorem.

@@ -1,11 +1,23 @@
 import React from 'react';
+import classes from './School.css';
+
 const school = (props) => {
     return (
-        <div>
-            <p>{props.school}</p>
-            <p>{props.program}</p>
-            <p>{props.gpa}</p>
-        </div>
+            <table className={classes.Table}>
+                <tr>
+                    <td><strong>School:</strong></td>
+                    <td>{props.school}</td>
+                </tr>
+                <tr>
+                    <td><strong>Program: </strong></td>
+                    <td>{props.program}</td>
+                </tr>
+                <tr>
+                    <td><strong>GPA: </strong></td>
+                    <td>{props.gpa}/4.30</td>
+                </tr>
+
+            </table>
 
     );
 }
