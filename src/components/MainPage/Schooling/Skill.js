@@ -1,11 +1,16 @@
 import React from 'react';
-
+import Aux from '../../../hoc/Auxiliary';
 const skill = (props) => {
     return (
-        <div>
-            {props.name}
-            {props.rating}
-        </div>
+        <tr>
+            <td>
+                <strong>{props.name}</strong>
+            </td>
+            <td>
+                {props.rating}
+            </td>
+        </tr >
+
 
     );
 }
