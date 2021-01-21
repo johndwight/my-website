@@ -8,6 +8,7 @@ import square from '../assets/img/square.png';
 
 function NavBar()  {
     const [showLinks, setShowLinks] = useState(false);
+    
 
     return (
         

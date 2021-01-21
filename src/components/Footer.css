@@ -15,10 +15,12 @@
     margin: auto 10px;
     text-decoration: none;
     color: #cdac81;
+    transition-duration: 500ms;
 }
 
 .FooterLinks a:hover{
     color: black;
+    transition-duration: 500ms;
 }
 
 .SocialLinks a{
@@ -31,11 +33,12 @@
     padding:0 ;
     border-radius: 25%;
     background-color: #cdac81;
+    transition-duration: 500ms;
 }
 
 .SocialLinks img:hover{
     opacity: .5;
-    transition-duration: 10ms;
+    transition-duration: 500ms;
 }
 
 @media only screen and (max-width: 1000px){

@@ -17,7 +17,12 @@ import Picture7 from './assets/img/Picture7.jpg'
 import PictureGallery from './components/GalleryPage/PictureGallery2';
 //import Content from '../src/components/Content'
 class App extends Component {
+
   render() {
+    const onUpdate = () => {
+      window.scrollTo(0, 0);
+    }
+
     return (
       <Router>
         <div className={classes.App}>
@@ -26,10 +31,11 @@ class App extends Component {
               return (
                 <Aux>
                   <LandingPage
-                    styles={{ backgroundImage: `url(${Picture7})` }}
-                      firstLine="John Paragas"
-                      secondLine="Aspiring web developer">
 
+                    styles={{ backgroundImage: `url(${Picture7})` }}
+                    firstLine="John Paragas"
+                    secondLine="Aspiring web developer">
+                    {onUpdate()}
                   </LandingPage>
                   <About></About>
                   <hr className={classes.Divider} />
@@ -41,13 +47,17 @@ class App extends Component {
             () => {
               return (
                 <Aux>
+
+
+
                   <LandingPage
                     styles={{ backgroundImage: `url(${Picture18})` }}
                     firstLine="My favorite shots">
+                    {onUpdate()}
 
 
                   </LandingPage>
-                  <PictureGallery/>
+                  <PictureGallery />
 
                 </Aux>
               );

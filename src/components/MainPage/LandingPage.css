@@ -11,6 +11,18 @@
     background-size: cover;
 }
 
+.LandingPageWrapper{
+    height: 100%;
+    position: relative;
+}
+
+.FlashingPage{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+   top: 0;
+   background-color: white;
+}
 
 .Centered {
     width: 50%;
