@@ -25,7 +25,7 @@ const landingPage = (propsfromapp) => {
                                 config={{ duration: 750, delay: 3000 }}
                             >
                                 {props => (
-                                    <h1 style={props}>{propsfromapp.secondLine}</h1>
+                                    <h2 style={props}>{propsfromapp.secondLine}</h2>
                                 )}
 
                             </Spring>

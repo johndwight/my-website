@@ -5,7 +5,6 @@
     left: 0;
     width: 100%;
     overflow: hidden;
-    background-color:rgba(255,243,230, 0.7);
     
 
 }
@@ -36,6 +35,12 @@ a:nth-child(1){
 .NavBar p{
     float: left;
     margin-left: 7%;
+    transition-duration: 500ms;
+}
+
+.NavBar p:hover{
+    padding-left: 5%;
+    transition-duration: 500ms;
 }
 
 
@@ -63,6 +68,10 @@ a:nth-child(1){
         float: none;
         margin-left: 5%;
         margin-bottom: 4%;
+    }
+
+    .Links a:hover{
+        padding-left: 2.5%;
     }
 
     .Links{

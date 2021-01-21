@@ -27,12 +27,7 @@ const pictureGallery = () => {
 
             <div className={classes.Row}>
                 <div className={classes.Col}>
-                    <Picture
-                        image={Picture1}
-                        message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
-                        Quisque quam ante, efficitur et erat in, egestas tincidunt dolor.">
-                    </Picture>
+
                     <Picture
                         image={Picture2}
                         message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -57,9 +52,15 @@ const pictureGallery = () => {
                         Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
                         Quisque quam ante, efficitur et erat in, egestas tincidunt dolor.">
                     </Picture>
-                    
+
                 </div>
                 <div className={classes.Col}>
+                    <Picture
+                        image={Picture1}
+                        message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
+                        Quisque quam ante, efficitur et erat in, egestas tincidunt dolor.">
+                    </Picture>
                     <Picture
                         image={Picture7}
                         message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -78,19 +79,7 @@ const pictureGallery = () => {
                         Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
                         Quisque quam ante, efficitur et erat in, egestas tincidunt dolor.">
                     </Picture>
-                    <Picture
-                        image={Picture10}
-                        message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
-                        Quisque quam ante, efficitur et erat in, egestas tincidunt dolor.">
-                    </Picture>
-                    <Picture
-                        image={Picture11}
-                        message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
-                        Quisque quam ante, efficitur et erat in, egestas tincidunt dolor.">
-                    </Picture>
-                    
+
                 </div>
                 <div className={classes.Col}>
                     <Picture
@@ -129,6 +118,15 @@ const pictureGallery = () => {
                         Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
                         Quisque quam ante, efficitur et erat in, egestas tincidunt dolor.">
                     </Picture>
+
+                </div>
+                <div className={classes.Col}>
+                    <Picture
+                        image={Picture6}
+                        message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
+                        Quisque quam ante, efficitur et erat in, egestas tincidunt dolor.">
+                    </Picture>
                     <Picture
                         image={Picture18}
                         message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -136,14 +134,20 @@ const pictureGallery = () => {
                         Quisque quam ante, efficitur et erat in, egestas tincidunt dolor.">
                     </Picture>
                     <Picture
-                        image={Picture6}
+                        image={Picture10}
                         message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
                         Quisque quam ante, efficitur et erat in, egestas tincidunt dolor.">
                     </Picture>
-                    
+                    <Picture
+                        image={Picture11}
+                        message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
+                        Quisque quam ante, efficitur et erat in, egestas tincidunt dolor.">
+                    </Picture>
+
                 </div>
-             
+
 
             </div>
         </Aux>

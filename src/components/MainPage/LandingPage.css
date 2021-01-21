@@ -13,7 +13,7 @@
 
 
 .Centered {
-    width: 75%;
+    width: 50%;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -26,4 +26,22 @@
     font-size: 3rem;
     color: white;
     margin: 2% auto;
+    transition-duration: 500ms;
+}
+
+.Centered h1:hover{
+    transition-duration: 500ms;
+    padding-bottom: 5%;
+}
+
+.Centered h2{
+    font-size: 1.25rem;
+    color: white;
+    margin: 2% auto;
+    transition-duration: 500ms;
+}
+
+.Centered h2:hover{
+    padding-top: 5%;
+    transition-duration: 500ms;
 }

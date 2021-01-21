@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Footer.css'
 import linkedin from '../assets/img/linkedin.png';
-import square from '../assets/img/square.png';
+
 const footer = () => {
     return (
         <div className={classes.Footer}>

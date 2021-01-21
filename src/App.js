@@ -27,9 +27,8 @@ class App extends Component {
                 <Aux>
                   <LandingPage
                     styles={{ backgroundImage: `url(${Picture7})` }}
-                    firstLine="Hello,"
-                    secondLine="my name is John."
-                    thirdLine="Welcome!">
+                      firstLine="John Paragas"
+                      secondLine="Aspiring web developer">
 
                   </LandingPage>
                   <About></About>
