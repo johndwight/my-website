@@ -62,6 +62,125 @@ const pictureGallery = () => {
                 />
 
             </div>
+            <div className={classes.PictureHolder}>
+                <Picture
+                    className={classes.Picture2}
+                    styles={{ backgroundImage: `url(${Picture5})` }}
+                    message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
+                    Quisque quam ante, efficitur et erat in, egestas tincidunt dolor."
+                />
+                <Picture
+                    className={classes.Picture2}
+                    styles={{ backgroundImage: `url(${Picture6})` }}
+                    message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
+                    Quisque quam ante, efficitur et erat in, egestas tincidunt dolor."
+                />
+
+            </div>
+            <div className={classes.PictureHolder}>
+                <Picture
+                    className={classes.Picture2}
+                    styles={{ backgroundImage: `url(${Picture7})` }}
+                    message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
+                    Quisque quam ante, efficitur et erat in, egestas tincidunt dolor."
+                />
+                <Picture
+                    className={classes.Picture2}
+                    styles={{ backgroundImage: `url(${Picture8})` }}
+                    message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
+                    Quisque quam ante, efficitur et erat in, egestas tincidunt dolor."
+                />
+
+            </div>
+            <div className={classes.PictureHolder}>
+                <Picture
+                    className={classes.Picture2}
+                    styles={{ backgroundImage: `url(${Picture9})` }}
+                    message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
+                    Quisque quam ante, efficitur et erat in, egestas tincidunt dolor."
+                />
+                <Picture
+                    className={classes.Picture2}
+                    styles={{ backgroundImage: `url(${Picture10})` }}
+                    message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
+                    Quisque quam ante, efficitur et erat in, egestas tincidunt dolor."
+                />
+
+            </div>
+            <div className={classes.PictureHolder}>
+                <Picture
+                    className={classes.Picture2}
+                    styles={{ backgroundImage: `url(${Picture11})` }}
+                    message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
+                    Quisque quam ante, efficitur et erat in, egestas tincidunt dolor."
+                />
+                <Picture
+                    className={classes.Picture2}
+                    styles={{ backgroundImage: `url(${Picture12})` }}
+                    message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
+                    Quisque quam ante, efficitur et erat in, egestas tincidunt dolor."
+                />
+
+            </div>
+            <div className={classes.PictureHolder}>
+                <Picture
+                    className={classes.Picture2}
+                    styles={{ backgroundImage: `url(${Picture13})` }}
+                    message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
+                    Quisque quam ante, efficitur et erat in, egestas tincidunt dolor."
+                />
+                <Picture
+                    className={classes.Picture2}
+                    styles={{ backgroundImage: `url(${Picture14})` }}
+                    message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
+                    Quisque quam ante, efficitur et erat in, egestas tincidunt dolor."
+                />
+
+            </div>
+            <div className={classes.PictureHolder}>
+                <Picture
+                    className={classes.Picture2}
+                    styles={{ backgroundImage: `url(${Picture15})` }}
+                    message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
+                    Quisque quam ante, efficitur et erat in, egestas tincidunt dolor."
+                />
+                <Picture
+                    className={classes.Picture2}
+                    styles={{ backgroundImage: `url(${Picture16})` }}
+                    message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
+                    Quisque quam ante, efficitur et erat in, egestas tincidunt dolor."
+                />
+
+            </div>
+            <div className={classes.PictureHolder}>
+                <Picture
+                    className={classes.Picture2}
+                    styles={{ backgroundImage: `url(${Picture17})` }}
+                    message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
+                    Quisque quam ante, efficitur et erat in, egestas tincidunt dolor."
+                />
+                <Picture
+                    className={classes.Picture2}
+                    styles={{ backgroundImage: `url(${Picture18})` }}
+                    message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed eros erat, bibendum et nisl vitae, dignissim dapibus diam. 
+                    Quisque quam ante, efficitur et erat in, egestas tincidunt dolor."
+                />
+
+            </div>
         </Aux>
     );
 };

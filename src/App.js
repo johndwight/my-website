@@ -14,7 +14,7 @@ import Education from './components/MainPage/Schooling/Education';
 import Aux from './hoc/Auxiliary';
 import Picture18 from './assets/img/Picture18.jpg';
 import Picture7 from './assets/img/Picture7.jpg'
-import PictureGallery from './components/GalleryPage/PictureGallery';
+import PictureGallery from './components/GalleryPage/PictureGallery2';
 //import Content from '../src/components/Content'
 class App extends Component {
   render() {
@@ -49,6 +49,7 @@ class App extends Component {
 
                   </LandingPage>
                   <PictureGallery/>
+
                 </Aux>
               );
             }
