@@ -28,42 +28,6 @@ const education = () => {
                     program="Computer Science"
                     gpa="3.53">
                 </School>
-                <div className={classes.Skills}>
-
-                    <table>
-                        <th colspan="2">Skills</th>
-                        <Skill
-                            name="Organization"
-                            rating="5/5">
-                        </Skill>
-
-
-                        <Skill
-                            name="Organization"
-                            rating="5/5">
-                        </Skill>
-
-
-                        <Skill
-                            name="Organization"
-                            rating="5/5">
-                        </Skill>
-
-
-                        <Skill
-                            name="Organization"
-                            rating="5/5">
-                        </Skill>
-
-
-                        <Skill
-                            name="Organization"
-                            rating="5/5">
-                        </Skill>
-
-                    </table>
-
-                </div>
             </div>
             <p className={classes.Text}>
                 I chose Computer Science because I love <em>problem-solving</em>. <br />
