@@ -1,1 +1,1 @@
-johndwight.github.io/my-website
+https://www.johndwight.github.io/my-website
