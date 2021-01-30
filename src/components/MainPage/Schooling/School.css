@@ -1,5 +1,6 @@
 .Table{
     width: 40%;
+    margin-left: 2.5%;
 }
 
 .Table tr td:nth-child(1){

@@ -12,15 +12,14 @@ import classes from './Education.css';
 import School from './School';
 import Skill from './Skill';
 import Aux from '../../../hoc/Auxiliary';
+import Book from '../../../assets/img/open-book.png';
 const education = () => {
     return (
         <Aux>
-
-
-            <h2 className={classes.Title}>Education</h2>
-            <h3 className={classes.Centered}>2019-2023</h3>
+            <div className={classes.Title}>
+                <img src={Book} className={classes.CategoryIcon} alt="" />
+                <h1 className={classes.TitleText}>Education</h1></div>
             <div className={classes.SchoolWrapper}>
-
 
                 <School
                     className={classes.School}
@@ -28,13 +27,10 @@ const education = () => {
                     program="Computer Science"
                     gpa="3.53">
                 </School>
+                <div className={classes.Date}>2019-2023</div>
             </div>
-            <p className={classes.Text}>
-                I chose Computer Science because I love <em>problem-solving</em>. <br />
-                Puzzles, riddles, mundane everyday events - I need answers.
-            </p>
 
-            <h3 className={classes.Centered}>2017-2019</h3>
+
             <div className={classes.SchoolWrapper}>
 
                 <School
@@ -43,42 +39,8 @@ const education = () => {
                     program="Exercise Science"
                     gpa="3.59">
                 </School>
-                <div className={classes.Skills}>
+                <div className={classes.Date}>2017-2019</div>
 
-                    <table>
-                        <th colspan="2">Skills</th>
-                        <Skill
-                            name="Organization"
-                            rating="5/5">
-                        </Skill>
-
-
-                        <Skill
-                            name="Organization"
-                            rating="5/5">
-                        </Skill>
-
-
-                        <Skill
-                            name="Organization"
-                            rating="5/5">
-                        </Skill>
-
-
-                        <Skill
-                            name="Organization"
-                            rating="5/5">
-                        </Skill>
-
-
-                        <Skill
-                            name="Organization"
-                            rating="5/5">
-                        </Skill>
-
-                    </table>
-
-                </div>
             </div>
 
         </Aux>
