@@ -13,12 +13,15 @@ import School from './School';
 import Skill from './Skill';
 import Aux from '../../../hoc/Auxiliary';
 import Book from '../../../assets/img/open-book.png';
+
 const education = () => {
     return (
         <Aux>
             <div className={classes.Title}>
                 <img src={Book} className={classes.CategoryIcon} alt="" />
-                <h1 className={classes.TitleText}>Education</h1></div>
+                <h1 className={classes.TitleText}>Education</h1>
+            </div>
+
             <div className={classes.SchoolWrapper}>
 
                 <School
@@ -40,6 +43,17 @@ const education = () => {
                     gpa="3.59">
                 </School>
                 <div className={classes.Date}>2017-2019</div>
+
+            </div>
+
+            <div className={classes.SchoolWrapper}>
+
+                <School
+                    className={classes.School}
+                    school="Dawson College"
+                    program="Pure and Applied Science">
+                </School>
+                <div className={classes.Date}>2014-2017</div>
 
             </div>
 

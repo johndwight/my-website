@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './LandingPage.css';
 import { Spring } from 'react-spring/renderprops';
 import './LandingPage.css';
-
+import LetterAnimation from './LetterAnimation';
 
 
 const landingPage = (propsfromapp) => {
@@ -31,7 +31,7 @@ const landingPage = (propsfromapp) => {
                         config={{ duration: 750, delay: 1500 }}
                     >
                         {props => (
-                            <h1 style={props}>{propsfromapp.firstLine}</h1>
+                            <LetterAnimation style={props} text={propsfromapp.firstLine}></LetterAnimation>
                         )}
 
                     </Spring>

@@ -33,7 +33,7 @@ class App extends Component {
                   <LandingPage
 
                     styles={{ backgroundImage: `url(${Picture7})` }}
-                    firstLine="John Paragas"
+                    firstLine="John&nbsp;Paragas"
                     secondLine="Aspiring web developer">
                     {onUpdate()}
                   </LandingPage>
@@ -52,7 +52,7 @@ class App extends Component {
 
                   <LandingPage
                     styles={{ backgroundImage: `url(${Picture18})` }}
-                    firstLine="My favorite shots">
+                    firstLine="My&nbsp;favorite&nbsp;shots">
                     {onUpdate()}
 
 
