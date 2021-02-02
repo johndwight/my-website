@@ -26,7 +26,7 @@ function NavBar()  {
                         <NavLink exact to="/my-website" activeStyle={{ fontWeight: "bold", color: "#cae4db" }}>Home</NavLink>
                         {/* <NavLink exact to="/my-website/about" activeStyle={{ fontWeight: "bold", color: "#cae4db" }}>About</NavLink> */}
                         <NavLink exact to="/my-website/my-gallery" activeStyle={{ fontWeight: "bold", color: "#cae4db" }}>My Gallery</NavLink>
-                        {/* <NavLink exact to="/my-website/interests" activeStyle={{ fontWeight: "bold", color: "#cae4db" }}>My Interests</NavLink> */}
+                        {/* <NavLink exact to="/my-website/foodie" activeStyle={{ fontWeight: "bold", color: "#cae4db" }}>Food</NavLink> */}
                     </div>
                 </div>
             

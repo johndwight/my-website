@@ -13,7 +13,8 @@ import About from './components/MainPage/About';
 import Education from './components/MainPage/Schooling/Education';
 import Aux from './hoc/Auxiliary';
 import Picture18 from './assets/img/Picture18.jpg';
-import Picture7 from './assets/img/Picture7.jpg'
+import Picture7 from './assets/img/Picture7.jpg';
+import Burger from './assets/img/burger.jpg';
 import PictureGallery from './components/GalleryPage/PictureGallery2';
 //import Content from '../src/components/Content'
 class App extends Component {
@@ -54,8 +55,6 @@ class App extends Component {
                     styles={{ backgroundImage: `url(${Picture18})` }}
                     firstLine="My&nbsp;favorite&nbsp;shots">
                     {onUpdate()}
-
-
                   </LandingPage>
                   <PictureGallery />
 
@@ -63,6 +62,24 @@ class App extends Component {
               );
             }
           } />
+          {/* <Route path="/my-website/foodie" exact strict render={
+            () => {
+              return (
+                <Aux>
+
+
+
+                  <LandingPage
+                    styles={{ backgroundImage: `url(${Burger})` }}
+                    firstLine="The&nbsp;foodie&nbsp;life">
+                    {onUpdate()}
+                  </LandingPage>
+                  <h1></h1>
+
+                </Aux>
+              );
+            }
+          } /> */}
           <Layout>
 
 
