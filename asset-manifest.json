@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-website/static/css/main.e862242e.chunk.css",
-    "main.js": "/my-website/static/js/main.56e9916f.chunk.js",
-    "main.js.map": "/my-website/static/js/main.56e9916f.chunk.js.map",
+    "main.js": "/my-website/static/js/main.9e38bbcb.chunk.js",
+    "main.js.map": "/my-website/static/js/main.9e38bbcb.chunk.js.map",
     "runtime-main.js": "/my-website/static/js/runtime-main.1509ba79.js",
     "runtime-main.js.map": "/my-website/static/js/runtime-main.1509ba79.js.map",
     "static/js/2.69e3130a.chunk.js": "/my-website/static/js/2.69e3130a.chunk.js",
@@ -29,12 +29,13 @@
     "static/media/Picture7.f3108b48.jpg": "/my-website/static/media/Picture7.f3108b48.jpg",
     "static/media/Picture8.32e7f8e9.jpg": "/my-website/static/media/Picture8.32e7f8e9.jpg",
     "static/media/Picture9.b223141d.jpg": "/my-website/static/media/Picture9.b223141d.jpg",
+    "static/media/burger.c89a9bb7.jpg": "/my-website/static/media/burger.c89a9bb7.jpg",
     "static/media/open-book.dea59015.png": "/my-website/static/media/open-book.dea59015.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1509ba79.js",
     "static/js/2.69e3130a.chunk.js",
     "static/css/main.e862242e.chunk.css",
-    "static/js/main.56e9916f.chunk.js"
+    "static/js/main.9e38bbcb.chunk.js"
   ]
 }
